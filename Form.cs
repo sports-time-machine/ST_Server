@@ -81,6 +81,9 @@ namespace ST_Server
 		{
 			textBox1.Visible = true;
 			button1.Visible = true;
+			textBox1.Focus();
+			buttonClient.Visible = false;
+			buttonServer.Visible = false;
 
 			udp = new System.Net.Sockets.UdpClient();
 		}
@@ -91,6 +94,8 @@ namespace ST_Server
 		{
 			textBox1.Visible = true;
 			button1.Visible = false;
+			buttonClient.Visible = false;
+			buttonServer.Visible = false;
 
 			udp = new System.Net.Sockets.UdpClient(ST_UDP_PORT);
 
@@ -105,18 +110,20 @@ namespace ST_Server
 
 		private void textBox1_TextChanged(object sender, EventArgs e)
 		{
-			send_data();
+		//	send_data();
 		}
 
 		void send_data()
 		{
 			var enc = System.Text.Encoding.UTF8;
-			string remoteHost = "localhost";
+			string remoteHost = "255.255.255.255";
 			
 			string sendMsg = textBox1.Text;
 			byte[] sendBytes = enc.GetBytes(sendMsg);
 
 			udp.Send(sendBytes, sendBytes.Length, remoteHost, ST_UDP_PORT);
+
+			textBox1.Text = "";
 		}
 	}
 }

@@ -36,7 +36,7 @@
 			// 
 			// button1
 			// 
-			this.button1.Location = new System.Drawing.Point(197, 227);
+			this.button1.Location = new System.Drawing.Point(480, 67);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(75, 23);
 			this.button1.TabIndex = 0;
@@ -47,9 +47,10 @@
 			// 
 			// textBox1
 			// 
-			this.textBox1.Location = new System.Drawing.Point(12, 202);
+			this.textBox1.ImeMode = System.Windows.Forms.ImeMode.Off;
+			this.textBox1.Location = new System.Drawing.Point(12, 69);
 			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(260, 19);
+			this.textBox1.Size = new System.Drawing.Size(462, 19);
 			this.textBox1.TabIndex = 1;
 			this.textBox1.Text = "Hello World";
 			this.textBox1.Visible = false;
@@ -67,7 +68,7 @@
 			// 
 			// buttonClient
 			// 
-			this.buttonClient.Location = new System.Drawing.Point(197, 12);
+			this.buttonClient.Location = new System.Drawing.Point(93, 12);
 			this.buttonClient.Name = "buttonClient";
 			this.buttonClient.Size = new System.Drawing.Size(75, 23);
 			this.buttonClient.TabIndex = 4;
@@ -77,15 +78,17 @@
 			// 
 			// Form1
 			// 
+			this.AcceptButton = this.button1;
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(284, 262);
+			this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+			this.ClientSize = new System.Drawing.Size(568, 103);
 			this.Controls.Add(this.buttonClient);
 			this.Controls.Add(this.buttonServer);
 			this.Controls.Add(this.textBox1);
 			this.Controls.Add(this.button1);
 			this.Name = "Form1";
-			this.Text = "Form1";
+			this.Text = "スポーツタイムマシン サーバーコンソール";
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
 			this.Load += new System.EventHandler(this.Form1_Load);
 			this.ResumeLayout(false);
