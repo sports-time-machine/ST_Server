@@ -118,19 +118,37 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="1369988293_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1369988293_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="media_playback_start_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\media-playback-start-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1369988320_Synchronize" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1369988320_Synchronize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="media_playback_stop_3_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\media-playback-stop-3-red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1369988327_Delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1369988327_Delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="office_chart_pie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\office-chart-pie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1369988331_Refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1369988331_Refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="player_time" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\player-time.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1369992004_Positive" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1369992004_Positive.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="se_maoudamashii_onepoint24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sound\se_maoudamashii_onepoint24.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="se_maoudamashii_onepoint28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sound\se_maoudamashii_onepoint28.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="se_sad05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sound\se_sad05.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="se_sad06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sound\se_sad06.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="se_sad07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sound\se_sad07.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="system_reboot_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\system-reboot-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="view_refresh_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\view-refresh-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

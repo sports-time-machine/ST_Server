@@ -60,37 +60,74 @@ namespace ST_Server.Properties {
             }
         }
         
-        internal static System.Drawing.Bitmap _1369988293_5 {
+        internal static System.Drawing.Bitmap media_playback_start_3 {
             get {
-                object obj = ResourceManager.GetObject("1369988293_5", resourceCulture);
+                object obj = ResourceManager.GetObject("media_playback_start_3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
-        internal static System.Drawing.Bitmap _1369988320_Synchronize {
+        internal static System.Drawing.Bitmap media_playback_stop_3_red {
             get {
-                object obj = ResourceManager.GetObject("1369988320_Synchronize", resourceCulture);
+                object obj = ResourceManager.GetObject("media_playback_stop_3_red", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
-        internal static System.Drawing.Bitmap _1369988327_Delete {
+        internal static System.Drawing.Bitmap office_chart_pie {
             get {
-                object obj = ResourceManager.GetObject("1369988327_Delete", resourceCulture);
+                object obj = ResourceManager.GetObject("office_chart_pie", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
-        internal static System.Drawing.Bitmap _1369988331_Refresh {
+        internal static System.Drawing.Bitmap player_time {
             get {
-                object obj = ResourceManager.GetObject("1369988331_Refresh", resourceCulture);
+                object obj = ResourceManager.GetObject("player_time", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
-        internal static System.Drawing.Bitmap _1369992004_Positive {
+        internal static System.IO.UnmanagedMemoryStream se_maoudamashii_onepoint24 {
             get {
-                object obj = ResourceManager.GetObject("1369992004_Positive", resourceCulture);
+                return ResourceManager.GetStream("se_maoudamashii_onepoint24", resourceCulture);
+            }
+        }
+        
+        internal static System.IO.UnmanagedMemoryStream se_maoudamashii_onepoint28 {
+            get {
+                return ResourceManager.GetStream("se_maoudamashii_onepoint28", resourceCulture);
+            }
+        }
+        
+        internal static System.IO.UnmanagedMemoryStream se_sad05 {
+            get {
+                return ResourceManager.GetStream("se_sad05", resourceCulture);
+            }
+        }
+        
+        internal static System.IO.UnmanagedMemoryStream se_sad06 {
+            get {
+                return ResourceManager.GetStream("se_sad06", resourceCulture);
+            }
+        }
+        
+        internal static System.IO.UnmanagedMemoryStream se_sad07 {
+            get {
+                return ResourceManager.GetStream("se_sad07", resourceCulture);
+            }
+        }
+        
+        internal static System.Drawing.Bitmap system_reboot_2 {
+            get {
+                object obj = ResourceManager.GetObject("system_reboot_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap view_refresh_7 {
+            get {
+                object obj = ResourceManager.GetObject("view_refresh_7", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
